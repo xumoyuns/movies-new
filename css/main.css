@@ -1,0 +1,31 @@
+.movies__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -20px;
+  padding: 0;
+  list-style: none;
+}
+
+.movies__item {
+  margin: 20px;
+  background: #b42875;
+  transition: 1s all;
+}
+.movies__item:hover {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+  transition: 1s all;
+  color: #fff;
+}
+.card-img {
+  transition: 1s all;
+}
+.card-img:hover {
+  transform: scale(1.05);
+  transition: 1s all;
+}
+.bg-site {
+  background: linear-gradient(to top left, #6f7ed5, #b42875);
+  background-repeat: no-repeat;
+}
